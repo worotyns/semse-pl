@@ -1,0 +1,47 @@
+{
+  "name": "semse-pl",
+  "version": "0.0.1",
+  "description": "SMS Sending library for semse.pl, based on lib from SMSAPI.pl implementation for node.js",
+  "main": "index.js",
+  "dependencies": {
+    "extend": "~2.0.0",
+    "q": "*",
+    "request": "~2.34.0",
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/worotyns/semse-pl.git"
+  },
+  "keywords": [
+    "node.js",
+    "sms",
+    "semse",
+    "semse.pl",
+    "semse-pl",
+    "pl"
+  ],
+  "author": {
+    "name": "worotyns"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/worotyns/semse-pl/issues"
+  },
+  "homepage": "https://github.com/worotyns/",
+  "maintainers": [
+    {
+      "name": "worotyns",
+      "email": "worotyns@hotmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "59028e51d27cc6ff0c2e1d9c4c5795fdb3ca8dfc",
+    "tarball": "http://registry.npmjs.org/smsapi-pl/-/smsapi-pl-0.2.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/smsapi-pl/-/smsapi-pl-0.2.0.tgz"
+}

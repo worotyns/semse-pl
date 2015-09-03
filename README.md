@@ -11,20 +11,16 @@ $npm install semse-pl
 #### then:
 
 ```javascript
-    sender = sms.setSender({
+    senderConfig = {
       api_key: 'key',
       api_secret: 'secret'
-    }),
+    }
+
+    sender = sms.setSender(senderConfig),
 
     msg = new sms.Message();
     msg.to('79079XXXX').message('Siema');
     sender.send(msg, function(err, response){
         console.log(err, response)
     });
-```
-
-##### or create a local sender object.
-
-```javascript
-var sender = new sms.API(senderConfig)
 ```
