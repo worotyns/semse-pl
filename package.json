@@ -37,11 +37,5 @@
       "name": "worotyns",
       "email": "worotyns@hotmail.com"
     }
-  ],
-  "dist": {
-    "shasum": "59028e51d27cc6ff0c2e1d9c4c5795fdb3ca8dfc",
-    "tarball": "http://registry.npmjs.org/smsapi-pl/-/smsapi-pl-0.2.0.tgz"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/smsapi-pl/-/smsapi-pl-0.2.0.tgz"
+  ]
 }
